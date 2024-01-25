@@ -18,4 +18,8 @@ public class PostRepository {
         posts.add(post);
         return post;
     }
+
+    public List<Post> findAll() {
+        return posts;
+    }
 }
